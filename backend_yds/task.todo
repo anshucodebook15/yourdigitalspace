@@ -1,0 +1,12 @@
+nest g resource users
+
+
+☐ create a mongo DB schema for Employees
+
+
+Authenticaion JWT | google Oauth
+Employee Registration
+Attendence 
+Payroll 
+Leaves
+department

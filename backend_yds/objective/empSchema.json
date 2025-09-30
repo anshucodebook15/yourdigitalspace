@@ -1,0 +1,52 @@
+{
+  "employeeId": "E-2025-0002",
+  "personal": {
+    "firstName": "Priya",
+    "lastName": "Sharma",
+    "dob": "1995-07-22",
+    "gender": "Female",
+    "email": "priya.sharma@example.com",
+    "phone": "+91 9123456789",
+    "address": {
+      "street": "45 Park Avenue",
+      "city": "Delhi",
+      "state": "Delhi",
+      "zip": "110001",
+      "country": "India"
+    }
+  },
+  "employment": {
+    "currentCompanyId": "64f0c1f4b12a3e8d5f7e9c11",
+    "currentManagerId": "64f0c1f4b12a3e8d5f7e9c55",
+    "designation": "HR Manager",
+    "joiningDate": "2024-05-10",
+    "status": "Active",
+    "workType": "Full-time",
+    "transferHistory": [
+      {
+        "companyId": "64f0c1f4b12a3e8d5f7e9c11",
+        "managerId": "64f0c1f4b12a3e8d5f7e9c55",
+        "startDate": "2024-05-10",
+        "endDate": null
+      }
+    ]
+  },
+  "bankDetails": {
+    "accountHolder": "Priya Sharma",
+    "accountNumber": "9876543210",
+    "ifscCode": "ICIC0005678",
+    "bankName": "ICICI Bank",
+    "branch": "Delhi Connaught Place"
+  },
+  "salaryStructure": {
+    "basic": 45000,
+    "hra": 20000,
+    "allowances": 8000,
+    "deductions": 3000,
+    "overtime": 100,
+  },
+  "auth": {
+    "googleId": "99887766554433221100",
+    "role": "hr" // admin || manager | hr | xyz
+  }
+}

@@ -1,0 +1,79 @@
+/**
+* @license
+*
+* Font Family: Cabinet Grotesk
+* Designed by: ITF
+* URL: https://www.fontshare.com/fonts/cabinet-grotesk
+* © 2025 Indian Type Foundry
+*
+* Cabinet Grotesk Thin 
+* Cabinet Grotesk Extralight 
+* Cabinet Grotesk Light 
+* Cabinet Grotesk Regular 
+* Cabinet Grotesk Medium 
+* Cabinet Grotesk Bold 
+* Cabinet Grotesk Extrabold 
+* Cabinet Grotesk Black 
+* Cabinet Grotesk Variable (Variable font)
+
+*
+*/
+/* Cabinet Grotesk - Light (300) */
+@font-face {
+  font-family: "Cabinet Grotesk";
+  src: url("./CabinetGrotesk-Light.woff2") format("woff2"),
+    url("./CabinetGrotesk-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Cabinet Grotesk - Regular (400) */
+@font-face {
+  font-family: "Cabinet Grotesk";
+  src: url("./CabinetGrotesk-Regular.woff2") format("woff2"),
+    url("./CabinetGrotesk-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Cabinet Grotesk - Medium (500) */
+@font-face {
+  font-family: "Cabinet Grotesk";
+  src: url("./CabinetGrotesk-Medium.woff2") format("woff2"),
+    url("./CabinetGrotesk-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Cabinet Grotesk - Bold (700) */
+@font-face {
+  font-family: "Cabinet Grotesk";
+  src: url("./CabinetGrotesk-Bold.woff2") format("woff2"),
+    url("./CabinetGrotesk-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Cabinet Grotesk - ExtraBold (800) */
+@font-face {
+  font-family: "Cabinet Grotesk";
+  src: url("./CabinetGrotesk-Extrabold.woff2") format("woff2"),
+    url("./CabinetGrotesk-Extrabold.woff") format("woff");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Cabinet Grotesk - Black (900) */
+@font-face {
+  font-family: "Cabinet Grotesk";
+  src: url("./CabinetGrotesk-Black.woff2") format("woff2"),
+    url("./CabinetGrotesk-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
