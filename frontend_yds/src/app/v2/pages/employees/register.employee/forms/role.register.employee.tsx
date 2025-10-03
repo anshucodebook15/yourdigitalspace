@@ -2,7 +2,7 @@ import { useEmployee } from "../context/context.register.employee";
 // import { useEmployee } from "./EmployeeContext";
 
 const RoleStep = () => {
-  const { employee, setEmployee, validateStep, stepErrors } = useEmployee();
+  const { employee, setEmployee} = useEmployee();
 
   return (
     <div>

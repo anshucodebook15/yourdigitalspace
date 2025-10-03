@@ -15,7 +15,7 @@ import { JwtLocalAuthGuard } from './guard/local-jwt-auth/local-jwt-auth.guard';
     PassportModule,
     JwtModule.register({
       secret:
-        '94f2fbb6b587200af3a9f6e54abc3ec58991349441915a5d973cdb05bf996abd', // 🔑 put in .env
+        process.env.JWT_SECRET as string, // 🔑 put in .env
       signOptions: { expiresIn: '1h' },
     }),
   ],

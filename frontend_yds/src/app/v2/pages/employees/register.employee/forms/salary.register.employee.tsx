@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import { useEmployee } from "../context/context.register.employee";
 
 const SalaryStep = () => {

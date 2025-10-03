@@ -23,7 +23,8 @@ import { AttendanceModule } from './modules/attendance/attendance.module';
     ConfigModule.forRoot({
       isGlobal: true,
       load: [baseConfig, databaseConfig, jwtConfig, googleOauthConfig],
-      envFilePath: [`.env.development`],
+      // envFilePath: [`.env.development`],
+      envFilePath: [`.env.production`],
     }),
 
     // MongoDB connection
@@ -32,7 +33,7 @@ import { AttendanceModule } from './modules/attendance/attendance.module';
       inject: [ConfigService],
       useFactory: (configService: ConfigService) => ({
         uri: configService.get<string>('database.uri'),
-        dbName: configService.get<string>('database.name'),
+        // dbName: configService.get<string>('database.name'),
       }),
     }),
 
@@ -46,7 +47,7 @@ import { AttendanceModule } from './modules/attendance/attendance.module';
   controllers: [AppController],
   providers: [DatabaseService, AppService],
 })
-export class AppModule {}
+export class AppModule { }
 
 /**
  * 

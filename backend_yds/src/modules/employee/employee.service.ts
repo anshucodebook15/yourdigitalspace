@@ -11,10 +11,9 @@ export class EmployeeService {
   constructor(
     @InjectModel(Employee.name) private employeeModel: Model<Employee>,
     private payrollService: PayrollService, // 👈 Inject PayrollService
-  ) { }
+  ) {}
 
   async create(createEmployeeDto: CreateEmployeeDto) {
-
     // 1. Create employee
     const employee = await this.employeeModel.create({
       ...createEmployeeDto,
