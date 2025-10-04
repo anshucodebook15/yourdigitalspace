@@ -13,6 +13,13 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v4
 
+      - name: 🔐 Setup SSH key into runner
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{secrets.DO_SSH_PRIVATE}}" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan -H ${{secrets.DO_HOST}} >> ~/.ssh/known_hosts
+
       - name: 🚀 Connect to Digital Ocean Droplet VM
         run: |
           ssh -o StrictHostKeyChecking=no ${{ secrets.DO_USER }}@${{ secrets.DO_HOST }} << 'EOF'
